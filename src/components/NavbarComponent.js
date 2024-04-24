@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import Logo from './Logo';
 import styles from './Navbar.module.css';
 import { NavLink } from 'react-router-dom';
-// import HamburgerComponent from './HamburgerComponent';
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavbarComponent = () => {
@@ -60,9 +59,6 @@ const NavbarComponent = () => {
                     onClick={showNavbar}>
                     <FaBars />
                 </button>
-                {/* <div className={styles["hamburger-menu"]} onClick={showNavbar}>
-                    <HamburgerComponent />
-                </div> */}
             </nav>
         </>
     );
